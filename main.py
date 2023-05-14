@@ -23,7 +23,7 @@ try:
         if 'friday' in command:
             talk(command)
         else:
-            talk('Did you tell me something to do ?')
+            talk('Did you tell me something to do?')
 except:
     talk("Boss i can't here you , are you talking to me")
     pass        
