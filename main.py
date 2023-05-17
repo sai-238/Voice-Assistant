@@ -13,7 +13,6 @@ def talk(text):
 
 talk('Hi Boss! This is friday at you service')
 talk('what Shall i Do ?')
-
 try:
     with sr.Microphone() as source:
         print('Listening...')
